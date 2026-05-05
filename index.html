@@ -237,7 +237,7 @@
     .hero__bg {
       position: absolute;
       inset: 0;
-      background-image: url('img/hero.jpg');
+      background-image: url('img/hero-2.jpg');
       background-size: cover;
       background-position: center;
       transform: scale(1.05);
@@ -249,9 +249,9 @@
       inset: 0;
       background: linear-gradient(
         135deg,
-        rgba(20,40,25,.90) 0%,
-        rgba(40,90,55,.72) 60%,
-        rgba(20,40,25,.85) 100%
+        rgba(20,40,25,.70) 0%,
+        rgba(40,90,55,.52) 60%,
+        rgba(20,40,25,.65) 100%
       );
     }
     .hero__content {
@@ -417,7 +417,7 @@
       inset: 0;
       background:
         linear-gradient(to bottom, rgba(221,238,229,.5) 0%, transparent 5%),
-        linear-gradient(135deg, rgba(20,40,25,.88) 0%, rgba(45,92,56,.80) 60%, rgba(20,40,25,.88) 100%);
+        linear-gradient(135deg, rgba(20,40,25,.68) 0%, rgba(45,92,56,.60) 60%, rgba(20,40,25,.68) 100%);
     }
     #eventos > .container {
       position: relative;
@@ -609,6 +609,7 @@
       align-items: center;
     }
     .ig-post__body { padding: 4px 14px 14px; }
+    .ig-post__views { font-size: .75rem; color: #8e8e8e; margin-bottom: 3px; }
     .ig-post__likes { font-size: .8rem; font-weight: 700; color: #262626; margin-bottom: 5px; }
     .ig-post__caption { font-size: .82rem; color: #262626; line-height: 1.5; margin-bottom: 7px; }
     .ig-post__caption strong { font-weight: 700; }
@@ -1209,7 +1210,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background: linear-gradient(135deg, rgba(26,46,32,.88) 0%, rgba(45,92,56,.78) 60%, rgba(26,46,32,.88) 100%);
+      background: linear-gradient(135deg, rgba(26,46,32,.68) 0%, rgba(45,92,56,.58) 60%, rgba(26,46,32,.68) 100%);
     }
     .finalcta__inner { position: relative; z-index: 1; }
     .finalcta__tag {
@@ -1411,6 +1412,41 @@
     }
     .lightbox__close:hover { opacity: 1; }
   </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FoodEstablishment",
+    "name": "Antipasto Cocina",
+    "description": "Catering, viandas empresariales y comida casera artesanal en Quilmes, Buenos Aires. Lunch corporativo, eventos y cumpleaños.",
+    "url": "https://www.antipastococina.com.ar",
+    "telephone": "+5491125376088",
+    "email": "antipasto.gastro@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Quilmes",
+      "addressRegion": "Buenos Aires",
+      "addressCountry": "AR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": -34.7219,
+      "longitude": -58.2539
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Quilmes"
+    },
+    "servesCuisine": "Comida casera argentina",
+    "priceRange": "$$",
+    "founder": [
+      { "@type": "Person", "name": "Karina" },
+      { "@type": "Person", "name": "Martín" }
+    ],
+    "sameAs": [
+      "https://www.instagram.com/antipasto.cocina/"
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -1477,7 +1513,7 @@
     <div class="container">
       <div class="about__grid">
         <div class="about__img-wrap fade-up">
-          <img src="img/nuestra-historia.jpg" alt="Cocina casera" />
+          <img src="img/nuestra-historia.jpg" alt="Karina y Martín, fundadores de Antipasto Cocina en Quilmes" />
         </div>
         <div class="about__text fade-up">
           <span class="section-tag">Nuestra historia</span>
@@ -1608,7 +1644,8 @@
             <span class="ig-post__action-btn"><i class="far fa-bookmark"></i></span>
           </div>
           <div class="ig-post__body">
-            <p class="ig-post__likes">248 me gusta</p>
+            <p class="ig-post__views">736 mil visualizaciones</p>
+            <p class="ig-post__likes">16,5 mil me gusta</p>
             <p class="ig-post__caption"><strong>antipasto.cocina</strong> Dejá de pasarte el cumple adentro de la cocina 🤯 ahora podes disfrutar vos también junto con tus invitados 💛</p>
             <a href="https://www.instagram.com/reel/DV7KsGYEey9/" target="_blank" class="ig-post__view-link">Ver en Instagram</a>
           </div>
@@ -1640,7 +1677,8 @@
             <span class="ig-post__action-btn"><i class="far fa-bookmark"></i></span>
           </div>
           <div class="ig-post__body">
-            <p class="ig-post__likes">312 me gusta</p>
+            <p class="ig-post__views">26,6 mil visualizaciones</p>
+            <p class="ig-post__likes">1000 me gusta</p>
             <p class="ig-post__caption"><strong>antipasto.cocina</strong> Después de tanta espera … 😮 ¡Bienvenidos a nuestra nueva cocina! 🤩</p>
             <a href="https://www.instagram.com/reel/DKqBlnlxD0z/" target="_blank" class="ig-post__view-link">Ver en Instagram</a>
           </div>
@@ -1672,7 +1710,8 @@
             <span class="ig-post__action-btn"><i class="far fa-bookmark"></i></span>
           </div>
           <div class="ig-post__body">
-            <p class="ig-post__likes">189 me gusta</p>
+            <p class="ig-post__views">96,6 mil visualizaciones</p>
+            <p class="ig-post__likes">2000 me gusta</p>
             <p class="ig-post__caption"><strong>antipasto.cocina</strong> El lunch más pedido por ustedes 🥳 lunch para 20!</p>
             <a href="https://www.instagram.com/reel/DXDKUcMERRe/" target="_blank" class="ig-post__view-link">Ver en Instagram</a>
           </div>
@@ -1828,13 +1867,6 @@
                 <span>Todos los mediodías entregamos las viandas en tu empresa para que sólo tengan que calentar y disfrutar!</span>
               </div>
             </div>
-            <div class="viandas__item">
-              <div class="viandas__item-icon"><i class="fas fa-truck"></i></div>
-              <div class="viandas__item-text">
-                <strong>Entrega puntual garantizada</strong>
-                <span>Llegamos a tiempo, siempre. Tu empresa no se detiene y nosotros tampoco.</span>
-              </div>
-            </div>
           </div>
         </div>
         <div class="viandas__aside fade-up">
@@ -1881,7 +1913,7 @@
             <a href="https://wa.me/5491125376088?text=Hola!%20Quiero%20consultar%20por%20el%20servicio%20de%20viandas%20para%20empresa%20%F0%9F%98%8A" target="_blank" class="btn btn--wa" style="width:100%;justify-content:center;">
               <i class="fab fa-whatsapp"></i> Pedir una degustación sin cargo! 
             </a>
-            <a href="https://drive.google.com/file/d/11WOoeIq-fdLqOpP9x1_zHZzMhuz_DO_S/view?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnURgO4-qUfdqx3XRA9E_6ilq1LnviBpLKmiC29SKl6Z_oGt8CSKVUKdY7k6Y_aem_mKQfcJXxkr3I5S2qTitvrg" target="_blank" class="btn btn--orange" style="width:100%;justify-content:center;">
+            <a href="https://drive.google.com/file/d/1v27dsC1DvH34sKmqlAGh95c6RE6_8KO_/view?fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnyg6JUqPasE5UWq6feEcRUBFrHWwTDZZIdX8p9hmfHqJLbhc3QU7Qp5yD5z0_aem_b1O1KPcW1Z-Lym3fdR66kg" target="_blank" class="btn btn--orange" style="width:100%;justify-content:center;">
               <i class="fas fa-file-lines"></i> + info de viandas empresariales
             </a>
           </div>
@@ -1907,71 +1939,67 @@
       </div>
       <div class="gallery__grid" id="galleryGrid">
         <div class="gallery__item fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-1.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-1.jpg" alt="Karina y Martín, cocineros de Antipasto Cocina Quilmes" style="object-position: center 30%;" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-2.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-2.jpg" alt="Catering artesanal para eventos en Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-3.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-3.jpg" alt="Comida casera y catering Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-4.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-5.jpg" alt="Viandas empresariales en Quilmes - Antipasto Cocina" style="object-position: center top;" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-5.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-6.jpg" alt="Picadas y catering para cumpleaños Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-6.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-8.jpg" alt="Sándwiches y bocadillos para eventos Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-7.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-9.jpg" alt="Catering para reuniones y cumpleaños Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-8.jpg" alt="Antipasto Cocina" />
-          <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
-        </div>
-        <div class="gallery__item fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-9.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-4.jpg" alt="Lunch y catering a domicilio Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item gallery__item--extra fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-10.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-10.jpg" alt="Cocina artesanal y catering Quilmes - Antipasto Cocina" style="object-position: center top;" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item gallery__item--extra fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-11.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-11.jpg" alt="Comida para eventos empresariales Quilmes - Antipasto Cocina" style="object-position: center top;" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item gallery__item--extra fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-12.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-12.jpg" alt="Catering y viandas Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item gallery__item--extra fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-13.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-13.jpg" alt="Bocadillos artesanales para eventos - Antipasto Cocina Quilmes" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item gallery__item--extra fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-14.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-14.jpg" alt="Lunch corporativo y catering Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item gallery__item--extra fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-15.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-15.jpg" alt="Comida casera para compartir - Antipasto Cocina Quilmes" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item gallery__item--extra fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-16.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-16.jpg" alt="Gastronomía casera y catering en Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
         <div class="gallery__item gallery__item--extra fade-up" onclick="openLightbox(this)">
-          <img loading="lazy" src="galeria/galeria-17.jpg" alt="Antipasto Cocina" />
+          <img loading="lazy" src="galeria/galeria-17.jpg" alt="Catering familiar y empresarial Quilmes - Antipasto Cocina" />
           <div class="gallery__overlay"><i class="fas fa-expand"></i></div>
         </div>
       </div>
@@ -2267,7 +2295,7 @@
         <span>Antipasto Cocina · Quilmes</span>
       </div>
       <div style="text-align:center;margin-top:14px;font-size:.75rem;color:rgba(251,240,228,.3);">
-        Web realizada por Lara Villani · <a href="https://villaniwebstudio.netlify.app/" target="_blank" style="color:rgba(251,240,228,.45);text-decoration:underline;text-underline-offset:3px;transition:color .2s;" onmouseover="this.style.color='rgba(251,240,228,.75)'" onmouseout="this.style.color='rgba(251,240,228,.45)'">¿Querés una web así?</a>
+        Web realizada por Lara Villani · <a href="https://laravillani.github.io/Portfolio/" target="_blank" style="color:rgba(251,240,228,.45);text-decoration:underline;text-underline-offset:3px;transition:color .2s;" onmouseover="this.style.color='rgba(251,240,228,.75)'" onmouseout="this.style.color='rgba(251,240,228,.45)'">¿Querés una web así?</a>
       </div>
     </div>
   </footer>
