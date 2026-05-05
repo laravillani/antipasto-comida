@@ -2321,9 +2321,7 @@
       btn.innerHTML = expanded
         ? '<i class="fas fa-chevron-up"></i> Ver menos'
         : '<i class="fas fa-images"></i> Ver todas las fotos <span style="opacity:.65;font-size:.9em">(+8)</span>';
-      if (expanded) {
-        setTimeout(() => window.scrollBy({ top: 220, behavior: 'smooth' }), 50);
-      } else {
+      if (!expanded) {
         document.getElementById('galleryToggleBtn').scrollIntoView({ behavior: 'smooth', block: 'end' });
       }
     }
